@@ -12,6 +12,8 @@ I passi che dovremo svolgere sono i seguenti:
 1. dislocazione dei server: on-premises, cloud
 1. dislocazione dei db: on-premises, cloud
 
+In ognuno di questi passaggi ci si può aiutare con dei diagrammi o disegni per chiarire meglio che cosa intendete. Non abbiate timore di scrivere o disegnare: la cosa più importante in questa fase è che siate chiari.
+
 Nei passaggi in cui operate delle scelte, è fondamentale che specifichiate il perché avete optato per una determinata tecnologia piuttosto che per un'altra.
 
 - <span class="ok">OK</span>: scelgo una connessione WiFi perché ha una maggiore banda che mi permette di servire adeguatamente lo streaming video
