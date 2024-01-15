@@ -43,8 +43,8 @@ Infine, nella costruzione delle frasi, consiglio di seguire alcuni _pattern_ che
   - <span class="no">NO</span><br>Il codice a barre è scannerizzato dal fattorino
 
 - scrivere possibilmente un caso d'uso completo del servizio, dal momento in cui l'utente inizia ad usarlo fino alla fine
-  - <span class="ok">OK</span>: il fattorino, prende in carico il pacco scannerizzando il codice a barre, quando lo consegna al destinatario lo scannerizza di nuovo per confermare l'avvenuta consegna
-  - <span class="no">NO</span>: il codice a barre serve per la presa in carico e la consegna
+  - <span class="ok">OK</span><br>Il fattorino, prende in carico il pacco scannerizzando il codice a barre, quando lo consegna al destinatario lo scannerizza di nuovo per confermare l'avvenuta consegna
+  - <span class="no">NO</span><br>Il codice a barre serve per la presa in carico e la consegna
 
 Come ultimo suggerimento, può essere utile considerare nel nostro discorso anche alcuni casi in cui avviene *qualcosa di imprevisto*. Esempi:
 - cosa succede se il destinatario non è in casa? ha un impatto significativo sul mio progetto? 
