@@ -3,7 +3,15 @@
 color: green;
 }
 
+.ok::before {
+    content: "✅ ";
+ }
+
 .no 
 {font-weight: bold;
 color: red;
 }
+
+.no::before {
+    content: "❌ ";
+ }
