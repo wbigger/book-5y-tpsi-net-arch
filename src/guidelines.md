@@ -17,7 +17,7 @@ In ognuno di questi passaggi potete aiutarvi con dei diagrammi o disegni per chi
 Nei passaggi in cui operate delle scelte, è fondamentale che specifichiate il perché avete optato per una determinata tecnologia piuttosto che per un'altra. Ad esempio:
 
 - <span class="ok">OK</span><br>
-Scelgo una connessione WiFi perché ha una maggiore banda che mi permette di servire adeguatamente lo streaming video
+Scelgo una connessione WiFi per il tablet del turista perché ha una maggiore banda che mi permette di servire adeguatamente lo streaming video
 - <span class="no">NO</span><br> Scelgo la connessione WiFi
 - <span class="ok">OK</span><br>Scelgo un server in cloud perché ha minori costi iniziali e mi permette di pagare solo quello che effettivamente uso
 - <span class="no">NO</span><br> Scelgo un server in cloud
@@ -34,6 +34,12 @@ Quando possibile è utile aggiungere anche un'analisi quantitativa, oltre che se
 - Considerando 100 utenti che guardano in contemporanea un flusso video di 4kbps, ho bisogno di 800 kbps che può essere adeguatamente sostenuto da una connessione WiFi
 - Si può stimare il costo iniziale del mio servizio in una soluzione on-premises sia pari a circa €10k (server+rack) e circa €500 mensile per la gestione, mentre in cloud non ho costi iniziali ed ho un costo mensile stimabili a circa €400 euro (istanza macchina virtuale+database MySQL); scelgo quindi il server in cloud perché ha sia minori costi iniziali che di esercizio e mi permette di pagare solo quello che effettivamente uso
 
+Nel caso di servizi in cloud, in base alle vostre conoscenze potete specificare se intendente usare servizi:
+- IaaS, cioé solo infrastruttura come macchine virtuali, firewall e switch virtuali, etc. che dovranno essere configurati da noi direttamente (es. AWS EC2)
+- PaaS, cioé uso una piattaforma già parzialmente pronta (es. Wordpress)
+- SaaS (sconsigliato per l'esame), cioé uso dei servizi già pronti (es Wix).
+
+Considerando che spesso l'Esame di Stato chiede di progettare anche i database e scrivere il codice di alcune pagina, in generale lo sconsiglio per l'esame (ma può essere utile per un progetto reale futuro). 
 
 
 Infine, nella costruzione delle frasi, consiglio di seguire alcuni _pattern_ che aiutano a creare un discorso che sia chiaro e continuo:
