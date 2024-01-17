@@ -35,9 +35,10 @@ Quando possibile è utile aggiungere anche un'analisi quantitativa, oltre che se
 - Si può stimare il costo iniziale del mio servizio in una soluzione on-premises sia pari a circa €10k (server+rack) e circa €500 mensile per la gestione, mentre in cloud non ho costi iniziali ed ho un costo mensile stimabili a circa €400 euro (istanza macchina virtuale+database MySQL); scelgo quindi il server in cloud perché ha sia minori costi iniziali che di esercizio e mi permette di pagare solo quello che effettivamente uso
 
 Nel caso di servizi in cloud, in base alle vostre conoscenze potete specificare se intendente usare servizi:
-- IaaS, cioé solo infrastruttura come macchine virtuali, firewall e switch virtuali, etc. che dovranno essere configurati da noi direttamente (es. AWS EC2)
-- PaaS, cioé uso una piattaforma già parzialmente pronta (es. Wordpress)
-- SaaS (sconsigliato per l'esame), cioé uso dei servizi già pronti (es Wix).
+
+- IaaS, cioè solo infrastruttura come macchine virtuali, firewall e switch virtuali, etc. che dovranno essere configurati da noi direttamente (es. AWS EC2)
+- PaaS, cioè uso una piattaforma già parzialmente pronta (es. Wordpress)
+- SaaS (sconsigliato per l'esame), cioè uso dei servizi già pronti (es Wix).
 
 Considerando che spesso l'Esame di Stato chiede di progettare anche i database e scrivere il codice di alcune pagina, in generale lo sconsiglio per l'esame (ma può essere utile per un progetto reale futuro). 
 
